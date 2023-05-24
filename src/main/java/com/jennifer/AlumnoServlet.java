@@ -90,7 +90,7 @@ public class AlumnoServlet extends HttpServlet{
         String telefono = request.getParameter("telefono");
         
         Alumno objAlumno = new Alumno();
-        objAlumno.setId(Integer.parseInt(id));
+        
         objAlumno.setNombre(nombre);
         objAlumno.setNacionalidad(nacionalidad);
         objAlumno.setMatricula(matricula);
